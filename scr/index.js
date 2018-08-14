@@ -63,5 +63,5 @@ $(document).ready(function(){
     });
 });
 $(document).ready(function gmail_Link (){
-  $("#gmail").html('<a href="https://plus.google.com/u/0/113326717827553789779">Google +</a>');
+  $("td:contains('Gmail Link')").html('<a href="https://plus.google.com/u/0/113326717827553789779">Google +</a>');
 })

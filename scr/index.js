@@ -54,9 +54,14 @@ function Input() {
   }
 }
 
-
 $(document).ready(function(){
-    $("button").click(function(){
+    $("#hide").click(function(){
         $("p").hide();
     });
+    $("#show").click(function(){
+        $("p").show();
+    });
 });
+$(document).ready(function gmail_Link (){
+  $("#gmail").html('<a href="https://plus.google.com/u/0/113326717827553789779">Google +</a>');
+})

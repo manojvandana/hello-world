@@ -34,6 +34,7 @@ function displayTime() {
 function checkTime(i) {
   if (i < 10) {
     i = "0" +i;
+   console.log(i);
   }
   return i;
 }
